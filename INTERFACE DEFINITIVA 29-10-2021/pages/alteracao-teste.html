@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleAlterar.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Interface de Testes | ALTERAÇÃO DE TESTE</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar_principal">
+            <div class="container-nav">
+                <div class="logo">
+                    <a class="navbar" href="index.html">
+                        <img class="img-logo" src="../img/taiff-logo.png">
+                    </a>
+                </div>
+
+                <div class="navbar_menu">
+                    <ul class="navbar-ul">
+                        <li>
+                            <a href="../pages/teste.html">POSICIONAMENTO</a>
+                        </li>
+                        <li>
+                            <a href="../pages/relatorio.html">RELATÓRIOS</a>
+                        </li>
+                        <li>
+                            <a href="../pages/historico.html">HISTÓRICO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="h1-alteracao">ALTERAÇÃO DE TESTE</h1>
+    <main class="main-alteracao">
+        
+        <div class="teste-resumo" id="teste-resumo">
+
+            <div class="resumo-itens">
+                <h3 class="h3-alteracao"></h3>
+                <p class="resumo-data">Data de Realização: 20/10/2021 13:00:55</p>
+                <div class="corpo-modelo">
+                    <p class="resumo-modelo"></p>
+                </div>
+                <div class="corpo-zero-peca">
+                    <p class="resumo-zero-peca"></p>
+                    
+                </div>
+                <div class="lista-posi-alterar">
+                    <div class="titulo-posicoes">
+                        <p>Posições:</p>
+                    </div>
+                    <div class="corpo-posicoes">
+        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="campos-alteracao">
+            <div class="altera-nome-modelo">
+                <label for="input-altera-nome">Insira o novo modelo:</label>
+                <input type="text" name="input-altera-nome">
+            </div>
+
+            <div class="altera-zero-peca">
+                <p>Insira o novo Zero Peça:</p>
+                <div class="inputs">
+                    <label for="zp-x">X</label>
+                    <input type="number" name="zp-x" id="zp-x">
+                </div>
+
+                <div class="inputs">
+                    <label for="zp-x">Y</label>
+                    <input type="number" name="zp-y" id="zp-y">
+                </div>
+
+                <div class="inputs">
+                    <label for="zp-x">Z</label>
+                    <input type="number" name="zp-z" id="zp-z">
+                </div>
+
+                <div class="inputs">
+                    <label for="zp-x">R</label>
+                    <input type="number" name="zp-r" id="zp-r">
+                </div>
+            </div>
+
+            <div class="altera-posicoes">
+                <p>Insira seus novos valores da Posição:</p>
+
+                <div class="inputs">
+                    <label for="posicao-x">X</label>
+                    <input type="number" name="posicao-x" id="altera-posicao-x">
+                </div>
+
+                <div class="inputs">
+                    <label for="posicao-x">Y</label>
+                    <input type="number" name="posicao-y" id="altera-posicao-y">
+                </div>
+
+                <div class="inputs">
+                    <label for="posicao-x">Z</label>
+                    <input type="number" name="posicao-z" id="altera-posicao-z">
+                </div>
+
+                <div class="inputs">
+                    <label for="posicao-x">R</label>
+                    <input type="number" name="posicao-r" id="altera-posicao-r">
+                </div>
+
+            </div>
+
+            <div class="button-alterar">
+                <button class="btn-salvar" id="btn-salvar-alteracao" type="submit">Salvar Alterações</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/modules/AlteracaoTeste/script.js" type="module"></script>
+</body>
+
+</html>
