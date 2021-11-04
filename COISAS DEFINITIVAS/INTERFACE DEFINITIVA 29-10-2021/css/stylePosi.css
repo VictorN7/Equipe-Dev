@@ -1,0 +1,101 @@
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+h3 {
+    color: #2e5869;
+}
+
+.nome-modelo, .modelo-e-zero-peca, .posicoes {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+
+.nome-modelo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.zero-peca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modelo {
+    width: 400px;
+    margin-left:0;
+}
+
+.lb-modelo {
+    margin-left: 0;
+}
+
+.posicoes {
+   margin: 0 auto;
+   max-width: 590px;
+}
+
+.posicoes-list {
+
+}
+
+.inputs {
+    
+}
+
+.inputs > label {
+    
+}
+/* 
+.posicao-x, .posicao-y, .posicao-z, .posicao-r {
+    width: 580px;
+    margin-right: 40px;
+} */
+
+
+
+.btn-add-posicao {
+    border: none;
+    border-radius: 100%;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+
+    background-color: var(--bd-ter-cor);
+    color: var(--bd-pri-cor);
+    cursor: pointer;
+}
+
+
+.btn-gravar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 7px;
+
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: var(--bd-ter-cor);
+    color: var(--bd-pri-cor);
+    cursor: pointer;
+}
+
+.footer-posi {
+    margin-top: 5vh;
+    text-align: center;
+    color: var(--font-qui-cor);
+}

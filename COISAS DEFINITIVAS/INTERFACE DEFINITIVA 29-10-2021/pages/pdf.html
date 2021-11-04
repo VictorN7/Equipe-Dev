@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pdf.css">
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <title>PDF TAIFF</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="folha">
+            <div class="conteudo-relatorio" id="pag1">
+                <div class="header"></div>
+
+                <div class="identificacao-produto">
+                    <h4>IDENTIFICAÇÃO DO PRODUTO DE TESTE</h4>
+                    <table class="tabela-produto">
+                        <tr>
+                            <th>TIPO DE PRODUTO</th>
+                            <th colspan="4">ESPECIFICAR</th>
+                        </tr>
+                        <tr id="valores1">
+                            <td></td>
+                            <td colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <th>FABRICANTE</th>
+                            <th>MODELO PLACA</th>
+                            <th>FREQ</th>
+                            <th>PAIS DE FABRICAÇÃO</th>
+                        </tr>
+                        <tr id="valores2">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>NOME DO MODELO C.</th>
+                            <th>TENS. PLACA (V)</th>
+                            <th colspan="2">POT. PLACA (W)</th>
+                        </tr>
+                        <tr id="valores3">
+                            <td></td>
+                            <td></td>
+                            <td colspan="2"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="foto">
+                    <h4>FOTO</h4>
+                    <div class="imagens" id="imagemID">
+                        <img class='img' id = 'imagem1' src="../img/foto1.jpg" alt="imagem1">
+                        <img class='img' id = 'imagem2' src="../img/foto2.jpg" alt="imagem2">
+                    </div>
+                </div>
+                <div class="procedimento">
+                    <h4>PROCEDIMENTO</h4>
+                    <div class="conteudo-procedimento">
+                        <div class="procedimento-ordenado">
+                            <ol>
+                                <li>Configurar o sistema de aquisição de dados</li>
+                                <li>Ligar o secador na configuração do ensaio</li>
+                                <li>Posicionar o sensor conforme o diagrama</li>
+                                <li>Iniciar a gravação</li>
+                                <li>Aquisitar durante 2 minutos</li>
+                                <li>Retirar a ponta e reposicionar novamente conforme o
+                                    diagrama</li>
+                                <li>Fazer a leitura da temperatura nos 3 sensores e no
+                                    laboratório</li>
+                                <li>Repetir os passos 5 a 7, 5 vezes é o suficiente (se necessário
+                                    preencher a tabela por completo 10 medições alterar:
+                                    CONF95 = 2,262 *</li>
+                                <li>Parar e extrair os dados da aquisição (csv) e o relatório (pdf)</li>
+                                <li>Preencher este relatório</li>
+                            </ol>
+                        </div>
+                        <img id="img-proc" src="../img/procedimento.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="folha">
+            <div class="conteudo-relatorio" id="pag2">
+                <div class="header"></div>
+
+                <div class="dados">
+                    <h4>DADOS</h4>
+                    <table class="tabela tabela-dados">
+                        <tr>
+                            <th>JANELA</th>
+                            <th>TEMP AMB</th>
+                            <th>TEMP TP1</th>
+                            <th>TEMP TP2</th>
+                            <th>TEMP TP3</th>
+                            <th>TEMP MEDIA</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>25,7</td>
+                            <td>112,2</td>
+                            <td>93,4</td>
+                            <td>110,4</td>
+                            <td>105,3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>25,6</td>
+                            <td>113,4</td>
+                            <td>94,3</td>
+                            <td>115,2</td>
+                            <td>107,6</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>25,2</td>
+                            <td>111,0</td>
+                            <td>95,4</td>
+                            <td>117,5</td>
+                            <td>107,9</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>25,5</td>
+                            <td>106,8</td>
+                            <td>98,4</td>
+                            <td>107,5</td>
+                            <td>104,2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>24,5</td>
+                            <td>111,3</td>
+                            <td>103,4</td>
+                            <td>120,9</td>
+                            <td>111,9</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>MED</td>
+                            <td>25,32</td>
+                            <td>110,94</td>
+                            <td>96,98</td>
+                            <td>114,28</td>
+                            <td>107,40</td>
+                        </tr>
+                    </table>
+
+                    <div class="resultados">
+                        <h4>RESULTADOS</h4>
+                        <div class="media-termopares">
+                            <h4>TEMPERATURA ENTREGUE PELO SECADOR (25,4MM)</h4>
+                            <table class="tabela">
+                                <tr>
+                                    <th>TEMP TP1</th>
+                                    <th>TEMP TP2</th>
+                                    <th>TEMP TP3</th>
+                                </tr>
+                                <tr>
+                                    <td>110,94 ± 1,96</td>
+                                    <td>96,98 ± 3,18</td>
+                                    <td>114,28 ± 4,21</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="media-final">
+                            <h4>MEDIA FINAL</h4>
+                            <table class="tabela tb-media">
+                                <tr>
+                                    <th>TEMP MEDIA</th>
+                                </tr>
+                                <tr>
+                                    <td>107,40 ± 2,31</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="folha">
+            <div class="conteudo-relatorio" id="pag2">
+                <div class="header"></div>
+
+                <div class="notas">
+                    <h4>NOTAS</h4>
+                    <textarea name="" id="campo-notas" cols="30" rows="10" class="textArea"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="download">BAIXAR PDF</button>
+
+    <script src="../js/modules/Formulario/pdf.js"></script>
+    <script src="../cdn/html2pdf.bundle.min.js"></script>
+</body>
+
+</html>

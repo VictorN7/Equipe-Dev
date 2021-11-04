@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <title>Formulário TAIFF</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar_principal">
+            <div class="container-nav">
+                <div class="logo">
+                    <a class="navbar" href="../pages/home.html">
+                        <img class="img-logo" src="../img/taiff-logo.png">
+                    </a>
+                </div>
+
+                <div class="navbar_menu">
+                    <ul class="navbar-ul">
+                        <li>
+                            <a href="../pages/posicionamento.html">POSICIONAMENTO</a>
+                        </li>
+                        <li>
+                            <a href="../pages/historico.html">HISTÓRICO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <h1>RELATÓRIO</h1>
+
+
+        <form id="form" action="./pdf.html" class="formulario">
+
+            <div class="div1">
+                <input type="text" id="executante" class="inputs-formulario" placeholder="EXECUTANTE">
+
+                <input type="date" id="data" class="inputs-formulario" placeholder="DATA">
+
+                <input type="text" id="local" class="inputs-formulario" placeholder="LOCAL">
+
+                <input type="text" id="tipo" class="inputs-formulario" placeholder="TIPO">
+
+                <input type="text" id="especificar" class="inputs-formulario" placeholder="ESPECIFICAR">
+
+                <input type="text" id="fabricante" class="inputs-formulario" placeholder="FABRICANTE">
+            </div>
+
+            <div class="div2">
+                <input type="text" id="modelo-placa" class="inputs-formulario" placeholder="MODELO NA PLACA">
+
+                <input type="text" id="frequencia" class="inputs-formulario" placeholder="FREQUECIA NA PLACA [Hz]">
+
+                <input type="text" id="fabricacao" class="inputs-formulario" placeholder="PAÍS DE FABRICAÇÃO">
+
+                <input type="text" id="nome-comercial" class="inputs-formulario" placeholder="NOME COMERCIAL">
+
+                <input type="text" id="tensao-placa" class="inputs-formulario" placeholder="TENSÃO NA PLACA [V]">
+
+                <input type="text" id="potencia" class="inputs-formulario" placeholder="POTÊNCIA NA PLACA [W]">
+
+            </div>
+
+            <div class="input-imagens">
+                <input type="file" name="Image" id="imagem" multiple="" class="d-none">
+            </div>
+            <div class="fileAndSubmit">
+
+                <button type="submit" onclick="pegarDadosRelatorio()">Adicionar</button>    
+            </div>
+        </form>
+        
+        
+        <div id="container">
+
+        </div>
+    </main>
+
+    <!---<input type="file" name="" id="fotos"> -->
+    <script src="../js//modules/Formulario/formulario.js"></script>
+</body>
+
+</html>

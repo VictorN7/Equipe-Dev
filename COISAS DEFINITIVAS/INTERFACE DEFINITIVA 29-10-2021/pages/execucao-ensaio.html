@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleExec.css">
+    <title>Coleta de Temperaturas</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar_principal">
+            <div class="container-nav">
+                <div class="logo">
+                    <a class="navbar" href="../pages/home.html">
+                        <img class="img-logo" src="../img/taiff-logo.png">
+                    </a>
+                </div>
+
+                <div class="navbar_menu">
+                    <ul class="navbar-ul">
+                        <li>
+                            <a href="../pages/posicionamento.html">POSICIONAMENTO</a>
+                        </li>
+            
+                        <li>
+                            <a href="../pages/historico.html">HISTÓRICO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-execucao-teste">
+        <div class="info-teste">
+
+            <h1 class="titulo-modelo">Secador Unique Duo</h1>
+            <div class="exc-zp-teste">
+                <h3 class="exc-sub-title">ZERO PEÇA:</h3> 
+                <p class="p">X: 20; Y: 14; Z: 36; R: 15</p>
+            </div>
+
+            <span class="exc-posi-lista">
+                <select name="posicoes-dropdown" id="posicoes-dropdown">
+                    <option class="option" value="0">POSIÇÕES</option>
+                    <option class="option" value="1">1 ) X: 15; Y: 65; Z: 32; R: 41; T: 5</option>
+                    <option class="option" value="2">2 ) X: 12; Y: 2; Z: 36; R: 73; T: 5</option>
+                </select>
+            </span>
+
+            <div class="div-btn-add">
+                <button class="exc-add-posi">ADICIONAR POSIÇÕES</button>
+                <button class="exc-add-posi" onclick="window.location.href='resultados.html'">Relatório</button>
+            </div>
+
+            <div class="footer-exec">
+                <p>Copyright © DevCoders 2021</p>
+            </div>
+            
+        </div>
+
+        <div class="graph-stream" id="graph-stream">
+            <div class="grafico-tempo-real">
+                <canvas class="mychart">
+                    
+                </canvas>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@1.27.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@2.0.0"></script>
+    <script src="../js/modules//GraficoStremming/Graph.js"></script>
+    
+</body>
+</html>

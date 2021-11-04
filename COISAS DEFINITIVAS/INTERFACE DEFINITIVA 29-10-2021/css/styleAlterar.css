@@ -1,0 +1,110 @@
+.h1-alteracao {
+    margin-top: 5rem;
+}
+
+.main-alteracao {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.teste-resumo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-color: var(--bd-qui-cor);
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
+}
+
+.resumo-itens > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lista-posi-alterar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.resumo-data {
+    margin: 0;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #1bbea9;
+    color: var(--bd-pri-cor);
+}
+
+.alterar-modelo, .alterar-zp, .alterar-posicoes {
+    border: none;
+    background-color: #fdb821;
+    color: var(--bd-pri-cor);
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.corpo-posicoes > div {
+    display: flex;
+    margin: 10px;
+}
+
+
+/*GRID PT 2*/
+.campos-alteracao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px;
+}
+
+.campos-alteracao > div {
+    margin: 1rem;
+}
+
+.altera-nome-modelo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.altera-nome-modelo > label {
+    margin-left: 10px;
+}
+
+.altera-nome-modelo > input {
+    width: 94%;
+}
+
+.altera-zero-peca > p, .altera-posicoes > p {
+    font-size: 19px;
+}
+
+.button-alterar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-salvar {
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 7px;
+    margin: 10px;
+    margin-top: 15px;
+    width: 200px;
+
+    background-color: var(--bd-ter-cor);
+    color: var(--bd-pri-cor);
+    cursor: pointer;
+}

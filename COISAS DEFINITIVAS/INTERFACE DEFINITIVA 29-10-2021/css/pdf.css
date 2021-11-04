@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#download{
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    float: right;
+    border: none;
+    background-color: rgb(63, 199, 63);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#download:hover{
+    transition: 0.3s;
+    background-color: rgb(0, 110, 0);
+}
+#main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.folha{
+    width: 210mm;
+    height: 295.2mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-relatorio{
+    width: 700px;
+    height: 980px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.logo{
+    width: 200px;
+    height: 77px;
+}
+
+.header{
+    height: auto;
+}
+
+.title-header{
+    margin: 10px;
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.tabela-header {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-header th {
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.tabela-header td {
+    border: 1px solid black;
+    border-top: none;
+}
+
+.tabela-header, th,td{
+    text-align: center;
+}
+
+.tabela-header tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+
+th,td {
+    height:25px;
+}
+
+.identificacao-produto{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tabela-produto{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.tabela-produto caption{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.tabela-produto th {
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.tabela-produto td{
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.tabela-produto tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+.foto{
+    margin-top: 20px;
+}
+.imagens{
+    border: 2px solid black;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.img{
+    height: 80%;
+    max-width: 45%;
+}
+
+
+ol li {
+    list-style-position: inside; 
+    margin-left: 0.5em; 
+    font-weight: bold;
+}
+
+li {
+    font-size: 11px;
+    line-height: 17px;
+}
+.procedimento{
+    margin-top: 20px;
+}
+
+.conteudo-procedimento{
+    display: flex;
+   
+}
+
+.procedimento-ordenado{
+    border: 0.5px solid black;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#img-proc{
+    width: 45%;
+    margin-left: 10px;
+    height: 220px;
+}
+
+.dados{
+    margin-top: 30px;
+}
+
+.tabela{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela th  {
+    border: 1px solid black;
+    background-color: #dddddd;
+}
+
+.tabela td  {
+    border: 1px solid black;
+}
+
+.tabela-dados tr:last-child {
+    background-color: orange;
+}
+
+.resultados{
+    margin-top: 30px;
+}
+
+.resultados {
+    text-align: center;
+}
+
+.media-termopares{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.media-final{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tb-media {
+    width: 50%;
+}
+
+.notas{
+    margin-top: 30px;
+    height: 100%;
+}
+
+.campo-notas{
+    width: 100%;
+    height: 78%;
+    background-color: rgb(189, 219, 228);
+    border: 1px solid black;
+}
+
+.textArea {
+    background-color: rgb(189, 219, 228);
+    width: 100%;
+    height: 80%;
+    font-family: monospace;
+    font-size: 16px;
+}

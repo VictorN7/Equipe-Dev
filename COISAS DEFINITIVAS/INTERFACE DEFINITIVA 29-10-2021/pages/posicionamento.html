@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/stylePosi.css">
+    <title>Interface de Testes | POSICIONAMENTO</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar_principal">
+            <div class="container-nav">
+                <div class="logo">
+                    <a class="navbar" href="index.html">
+                        <img class="img-logo" src="../img/taiff-logo.png">
+                    </a>
+                </div>
+
+                <div class="navbar_menu">
+                    <ul class="navbar-ul">
+                        <li>
+                            <a href="../pages/posicionamento.html">POSICIONAMENTO</a>
+                        </li>
+                        <li>
+                            <a href="../pages/historico.html">HISTÓRICO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>CONTROLE DE POSICIONAMENTO</h1>
+
+        <div class="controls">
+
+            <div class="modelo-e-zero-peca">
+                <h3>MODELO</h3>
+
+                <div class="nome-modelo">
+                    <div class="inputsModelo">
+                        <div class="nome-modelo">
+                            <label class="lb-modelo" for="modelo">Nome do Modelo: </label>
+                            <input type="text" name="modelo" id="modelo">
+                        </div>
+                    </div>
+                </div>
+
+                <h3>ZERO PEÇA</h3>
+
+                <div class="zero-peca">
+                    <div class="inputsZp">
+                        <label for="zp-x">X</label>
+                        <input type="number" name="zp-x" id="zp-x">
+                    </div>
+
+                    <div class="inputsZp">
+                        <label for="zp-x">Y</label>
+                        <input type="number" name="zp-y" id="zp-y">
+                    </div>
+
+                    <div class="inputsZp">
+                        <label for="zp-x">Z</label>
+                        <input type="number" name="zp-z" id="zp-z">
+                    </div>
+
+                    <div class="inputsZp">
+                        <label for="zp-x">R</label>
+                        <input type="number" name="zp-r" id="zp-r">
+                    </div>
+                </div>
+            </div>
+
+            <div class="posicoes">
+                <h3>POSIÇÕES</h3>
+
+                <div class="posicoes-list" id="posicoes-list">
+
+                    <div class="inputs">
+                        <label for="posicao-x">X</label>
+                        <input type="number" name="posicao-x" id="posicao-x">
+                    
+                        <label for="posicao-x">Y</label>
+                        <input type="number" name="posicao-y" id="posicao-y">
+                    
+                        <label for="posicao-x">Z</label>
+                        <input type="number" name="posicao-z" id="posicao-z">
+                    
+                        <label for="posicao-x">R</label>
+                        <input type="number" name="posicao-r" id="posicao-r">
+                    
+                        <label for="posicao-time">T</label>
+                        <input type="number" name="posicao-time" id="posicao-time">
+                    
+                        <button class="btn-add-posicao" id="btn-add-posicao">+1 </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="btn-submit">
+            <div class="button-alterar">
+                <button class="btn-gravar" id="btn-salvar" type="submit">Salvar</button>
+            </div>
+            <button class="btn-gravar" id="btn-gravar" type="submit" onclick="window.location.href='execucao-ensaio.html'">Iniciar Ensaio</button>
+        </div>
+        
+    </main>
+    <footer class="footer-posi">Copyright © DevCoders 2021</footer>
+
+    <script src="../js/modules/ControlePosi/script.js" type="module"></script>
+</body>
+
+</html>
